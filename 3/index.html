@@ -1,0 +1,2625 @@
+<html lang="en" class="">
+<head>
+    <style>
+
+        .dismissButton {
+        background-color: #fff;
+        border: 1px solid #dadce0;
+        color: #1a73e8;
+        border-radius: 4px;
+        font-family: Roboto, sans-serif;
+        font-size: 14px;
+        height: 36px;
+        cursor: pointer;
+        padding: 0 24px
+    }
+
+    .dismissButton:hover {
+        background-color: rgba(66, 133, 244, 0.04);
+        border: 1px solid #d2e3fc
+    }
+
+    .dismissButton:focus {
+        background-color: rgba(66, 133, 244, 0.12);
+        border: 1px solid #d2e3fc;
+        outline: 0
+    }
+
+    .dismissButton:focus:not(:focus-visible) {
+        background-color: #fff;
+        border: 1px solid #dadce0;
+        outline: none
+    }
+
+    .dismissButton:focus-visible {
+        background-color: rgba(66, 133, 244, 0.12);
+        border: 1px solid #d2e3fc;
+        outline: 0
+    }
+
+    .dismissButton:hover:focus {
+        background-color: rgba(66, 133, 244, 0.16);
+        border: 1px solid #d2e2fd
+    }
+
+    .dismissButton:hover:focus:not(:focus-visible) {
+        background-color: rgba(66, 133, 244, 0.04);
+        border: 1px solid #d2e3fc
+    }
+
+    .dismissButton:hover:focus-visible {
+        background-color: rgba(66, 133, 244, 0.16);
+        border: 1px solid #d2e2fd
+    }
+
+    .dismissButton:active {
+        background-color: rgba(66, 133, 244, 0.16);
+        border: 1px solid #d2e2fd;
+        box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15)
+    }
+
+    .dismissButton:disabled {
+        background-color: #fff;
+        border: 1px solid #f1f3f4;
+        color: #3c4043
+    }
+    </style>
+    <style>.gm-style .gm-style-mtc label, .gm-style .gm-style-mtc div {
+        font-weight: 400
+    }
+
+    .gm-style .gm-style-mtc ul, .gm-style .gm-style-mtc li {
+        box-sizing: border-box
+    }
+    </style>
+    <style>.gm-control-active > img {
+        box-sizing: content-box;
+        display: none;
+        left: 50%;
+        pointer-events: none;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%)
+    }
+
+    .gm-control-active > img:nth-child(1) {
+        display: block
+    }
+
+    .gm-control-active:hover > img:nth-child(1), .gm-control-active:active > img:nth-child(1) {
+        display: none
+    }
+
+    .gm-control-active:hover > img:nth-child(2), .gm-control-active:active > img:nth-child(3) {
+        display: block
+    }
+    </style>
+    <link type="text/css" rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700|Google+Sans+Text:400">
+    <link type="text/css" rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Google+Sans+Text:400&amp;text=%E2%86%90%E2%86%92%E2%86%91%E2%86%93">
+    <style>.gm-ui-hover-effect {
+        opacity: .6
+    }
+
+    .gm-ui-hover-effect:hover {
+        opacity: 1
+    }
+    </style>
+    <style>.gm-style .gm-style-cc a, .gm-style .gm-style-cc button, .gm-style .gm-style-cc span, .gm-style .gm-style-mtc div {
+        font-size: 10px;
+        box-sizing: border-box
+    }
+    </style>
+    <style>@media print {
+        .gm-style .gmnoprint, .gmnoprint {
+            display: none
+        }
+    }
+
+    @media screen {
+        .gm-style .gmnoscreen, .gmnoscreen {
+            display: none
+        }
+    }</style>
+    <style>.gm-style-pbc {
+        transition: opacity ease-in-out;
+        background-color: rgba(0, 0, 0, 0.45);
+        text-align: center
+    }
+
+    .gm-style-pbt {
+        font-size: 22px;
+        color: white;
+        font-family: Roboto, Arial, sans-serif;
+        position: relative;
+        margin: 0;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%)
+    }
+    </style>
+    <style>.gm-style img {
+        max-width: none;
+    }
+
+    .gm-style {
+        font: 400 11px Roboto, Arial, sans-serif;
+        text-decoration: none;
+    }</style>
+    <meta charset="UTF-8">
+    <title>Home || Industry Press || Responsive HTML 5 Template</title>
+
+    <!-- responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- master stylesheet -->
+    <link rel="stylesheet" href="http://st.ourhtmldemo.com/new/indusrty-press/css/style.css">
+    <!-- responsive stylesheet -->
+    <link rel="stylesheet" href="http://st.ourhtmldemo.com/new/indusrty-press/css/responsive.css">
+
+
+    <style type="text/css">.fancybox-margin {
+        margin-right: 15px;
+    }</style>
+    <script type="text/javascript" charset="UTF-8"
+            src="https://maps.googleapis.com/maps-api-v3/api/js/45/5/common.js"></script>
+    <script type="text/javascript" charset="UTF-8"
+            src="https://maps.googleapis.com/maps-api-v3/api/js/45/5/util.js"></script>
+    <script type="text/javascript" charset="UTF-8"
+            src="https://maps.googleapis.com/maps-api-v3/api/js/45/5/map.js"></script>
+    <script type="text/javascript" charset="UTF-8"
+            src="https://maps.googleapis.com/maps-api-v3/api/js/45/5/marker.js"></script>
+    <script type="text/javascript" charset="UTF-8"
+            src="https://maps.googleapis.com/maps-api-v3/api/js/45/5/stats.js"></script>
+    <script type="text/javascript" charset="UTF-8"
+            src="https://maps.googleapis.com/maps-api-v3/api/js/45/5/onion.js"></script>
+    <script type="text/javascript" charset="UTF-8"
+            src="https://maps.googleapis.com/maps-api-v3/api/js/45/5/infowindow.js"></script>
+    <script type="text/javascript" charset="UTF-8"
+            src="https://maps.googleapis.com/maps-api-v3/api/js/45/5/controls.js"></script>
+</head>
+<body data-new-gr-c-s-check-loaded="14.1020.0" data-gr-ext-installed="">
+
+<!--Start header area-->
+<header class="header-area">
+    <div class="container">
+        <div class="logo pull-left">
+            <a href="index.html">
+                <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/resources/logo.png" alt="Awesome Logo">
+            </a>
+        </div>
+        <div class="top-info pull-right">
+            <ul>
+                <li class="single-info-box">
+                    <div class="icon-holder">
+                        <span class="flaticon-earth-grid"></span>
+                    </div>
+                    <div class="text-holder">
+                        <p><span>Address:</span> 20c Factory Street,<br>Newyork, NY 10205</p>
+                    </div>
+                </li>
+                <li class="single-info-box">
+                    <div class="icon-holder">
+                        <span class="flaticon-email-envelope-back-symbol-on-phone-screen"></span>
+                    </div>
+                    <div class="text-holder">
+                        <p><span>Call Us:</span> +(321) 48 659 779<br>Mail@Industrypress.com</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="social-links">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+<!--End header area-->
+
+<!--Start mainmenu area-->
+<section class="mainmeu-area stricky">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-sm-12 col-xs-12">
+                <div class="mainmenu-bg clearfix">
+                    <nav class="main-menu pull-left">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                    data-target=".navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="navbar-collapse collapse clearfix">
+                            <ul class="navigation">
+                                <li class="current"><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li class="dropdown"><a href="solutions.html">Solutions</a>
+                                    <ul>
+                                        <li><a href="chemical-research.html">Chemical Research</a></li>
+                                        <li><a href="agri-processing.html">Agriculture Processing</a></li>
+                                        <li><a href="petroleum-gas.html">Petroleum and Gas</a></li>
+                                        <li><a href="material-engineering.html">Material Engineering</a></li>
+                                        <li><a href="power-energy.html">Power and Energy</a></li>
+                                        <li><a href="mechanical-engin.html">Mechanical Engineering</a></li>
+                                    </ul>
+                                    <div class="dropdown-btn"></div>
+                                </li>
+                                <li class="dropdown"><a href="projects.html">Projects</a>
+                                    <ul>
+                                        <li><a href="projects.html">Project Gallery</a></li>
+                                        <li><a href="project-single.html">Project Single</a></li>
+                                    </ul>
+                                    <div class="dropdown-btn"></div>
+                                </li>
+                                <li class="dropdown"><a href="news.html">News</a>
+                                    <ul>
+                                        <li><a href="news.html">News Default</a></li>
+                                        <li><a href="news-single.html">News Single</a></li>
+                                    </ul>
+                                    <div class="dropdown-btn"></div>
+                                </li>
+                                <li class="dropdown"><a href="shop.html">Shop</a>
+                                    <ul>
+                                        <li><a href="shop.html">Shop With Sidebar</a></li>
+                                        <li><a href="shop-single.html">Shop Single</a></li>
+                                        <li><a href="shopping-cart.html">Shopping Cart</a></li>
+                                        <li><a href="checkout.html">Checkout Page</a></li>
+                                        <li><a href="account.html">My Account</a></li>
+                                    </ul>
+                                    <div class="dropdown-btn"></div>
+                                </li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="top-search-box pull-right">
+                        <button><i class="fa fa-search"></i></button>
+                        <ul class="search-box">
+                            <li>
+                                <form action="#">
+                                    <input type="text" placeholder="Search for something...">
+                                    <button type="submit"><i class="fa fa-search"></i></button>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-12 col-xs-3">
+                <div class="quote-button">
+                    <a class="thm-btn yellow-bg" href=""><i class="fa fa-share" aria-hidden="true"></i>Get a Quote</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End mainmenu area-->
+
+<!--Start rev slider wrapper-->
+<section class="rev_slider_wrapper tp-mouseover" style="overflow: visible; height: 580px;">
+    <div id="slider1" class="rev_slider revslider-initialised tp-simpleresponsive" data-version="5.0"
+         style="margin-top: 0px; margin-bottom: 0px; height: 580px;">
+        <ul class="tp-revslider-mainul"
+            style="visibility: visible; display: block; overflow: hidden; width: 1847px; height: 100%; max-height: none; left: 0px;">
+            <li data-transition="slidingoverlayleft" class="tp-revslider-slidesli"
+                style="width: 100%; height: 100%; overflow: hidden; z-index: 18; visibility: hidden; opacity: 0; background-color: rgba(255, 255, 255, 0);">
+                <div class="slotholder"
+                     style="width: 100%; height: 100%; visibility: hidden; opacity: 0; transform: translate(-100%, 0%) matrix(1, 0, 0, 1, 0, 0); z-index: 1;">
+                    <!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="img/slides/1.jpg" alt="" width="1920" height="580" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" class="defaultimg">-->
+                    <div class="tp-bgimg defaultimg"
+                         style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url(http://st.ourhtmldemo.com/new/indusrty-press/img/slides/1.jpg&quot;); background-size: cover; background-position: center top; width: 100%; height: 100%; opacity: 1; z-index: 20; visibility: inherit; position: inherit; transform: matrix(1, 0, 0, 1, 0, 0);"
+                         src="http://st.ourhtmldemo.com/new/indusrty-press/img/slides/1.jpg"></div>
+                </div>
+
+                <div class="tp-parallax-wrap"
+                     style="position: absolute; visibility: hidden; left: 1017px; top: 127px; z-index: 1;">
+                    <div class="tp-loop-wrap" style="position:absolute;">
+                        <div class="tp-mask-wrap"
+                             style="position: absolute; overflow: visible; transform: matrix(1, 0, 0, 1, 0, 0); height: auto; width: auto;">
+                            <div class="tp-caption tp-resizeme" data-x="right" data-hoffset="0" data-y="center"
+                                 data-voffset="-4" data-transform_idle="o:1;"
+                                 data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;"
+                                 data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                                 data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-splitin="none"
+                                 data-splitout="none" data-start="500"
+                                 style="visibility: hidden; transition: none 0s ease 0s; line-height: 24px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 14px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
+                                <div class="slide-content-box"
+                                     style="transition: none 0s ease 0s; line-height: 24px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 14px;">
+                                    <h3 style="transition: none 0s ease 0s; line-height: 22px; border-width: 0px; margin: -6px 0px 0px; padding: 5px 20px; letter-spacing: 0px; font-weight: 600; font-size: 18px;">
+                                        Industry Press</h3>
+                                    <h1 style="transition: none 0s ease 0s; line-height: 62px; border-width: 0px; margin: 14px 0px 9px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 50px;">
+                                        Provide Solution for<br
+                                            style="transition: none 0s ease 0s; line-height: 62px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 50px;">
+                                        All Industries</h1>
+                                    <p style="transition: none 0s ease 0s; line-height: 30px; border-width: 0px; margin: 0px 0px 30px; padding: 0px; letter-spacing: 0px; font-weight: 300; font-size: 18px;">
+                                        Industry Press has consistently embraced innovation to<br
+                                            style="transition: none 0s ease 0s; line-height: 30px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 300; font-size: 18px;">
+                                        provide a superior level of excellence.</p>
+                                    <div class="button"
+                                         style="transition: none 0s ease 0s; line-height: 24px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 14px;">
+                                        <a class="thm-btn yellow-bg" href=""
+                                           style="transition: none 0s ease 0s; line-height: 24px; border-width: 2px; margin: 0px 15px 0px 0px; padding: 13px 30px; letter-spacing: 0px; font-weight: 400; font-size: 14px;">Read
+                                            More</a>
+                                        <a class="thm-btn our-solution" href=""
+                                           style="transition: none 0s ease 0s; line-height: 24px; border-width: 2px; margin: 0px 15px 0px 0px; padding: 13px 30px; letter-spacing: 0px; font-weight: 400; font-size: 14px;">Our
+                                            Solutions</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li data-transition="slidingoverlayleft" class="tp-revslider-slidesli"
+                style="width: 100%; height: 100%; overflow: hidden; z-index: 18; visibility: inherit; opacity: 0.0001; background-color: rgba(255, 255, 255, 0);">
+                <div class="slotholder"
+                     style="width: 100%; height: 100%; visibility: hidden; opacity: 0; transform: translate(-100%, 0%) matrix(1, 0, 0, 1, 0, 0); z-index: 1;">
+                    <!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="img/slides/2.jpg" alt="" width="1920" height="580" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" class="defaultimg">-->
+                    <div class="tp-bgimg defaultimg"
+                         style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url(http://st.ourhtmldemo.com/new/indusrty-press/img/slides/2.jpg); background-size: cover; background-position: center top; width: 100%; height: 100%; opacity: 1; z-index: 20; visibility: inherit; position: inherit; transform: matrix(1, 0, 0, 1, 0, 0);"
+                         src="http://st.ourhtmldemo.com/new/indusrty-press/img/slides/2.jpg"></div>
+                    <div class="slot"
+                         style="position:absolute;top:0px;left:0px;overflow:hidden;width:1847.6px;height:580px">
+                        <div class="slotslide"
+                             style="position:absolute;top:0px;left:0px;width:1847.6px;height:580px;overflow:hidden;">
+                            <div style="background-color:rgba(0, 0, 0, 0);position:absolute;top:0px;left:0px;width:1847px;height:580px;background-image:url(img/slides/2.jpg);background-repeat:no-repeat;background-size:cover;background-position:top center;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tp-parallax-wrap"
+                     style="position: absolute; visibility: hidden; left: 339px; top: 125px; z-index: 1;">
+                    <div class="tp-loop-wrap" style="position:absolute;">
+                        <div class="tp-mask-wrap"
+                             style="position: absolute; overflow: visible; transform: matrix(1, 0, 0, 1, 0, 0); height: auto; width: auto;">
+                            <div class="tp-caption  tp-resizeme" data-x="left" data-hoffset="0" data-y="top"
+                                 data-voffset="125" data-transform_idle="o:1;"
+                                 data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;"
+                                 data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                                 data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-splitin="none"
+                                 data-splitout="none" data-start="700"
+                                 style="visibility: hidden; transition: none 0s ease 0s; line-height: 24px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 14px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
+                                <div class="slide-content-box"
+                                     style="transition: none 0s ease 0s; line-height: 24px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 14px;">
+                                    <h3 style="transition: none 0s ease 0s; line-height: 22px; border-width: 0px; margin: -6px 0px 0px; padding: 5px 20px; letter-spacing: 0px; font-weight: 600; font-size: 18px;">
+                                        Industry Press</h3>
+                                    <h1 style="transition: none 0s ease 0s; line-height: 62px; border-width: 0px; margin: 14px 0px 9px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 50px;">
+                                        Leading Manufacturer<br
+                                            style="transition: none 0s ease 0s; line-height: 62px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 50px;">Company
+                                    </h1>
+                                    <p style="transition: none 0s ease 0s; line-height: 30px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 300; font-size: 18px;">
+                                        Industry Press has consistently embraced innovation to<br
+                                            style="transition: none 0s ease 0s; line-height: 30px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 300; font-size: 18px;">
+                                        provide a superior level of excellence.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tp-parallax-wrap"
+                     style="position: absolute; visibility: hidden; left: 339px; top: 394px; z-index: 1;">
+                    <div class="tp-loop-wrap" style="position:absolute;">
+                        <div class="tp-mask-wrap"
+                             style="position: absolute; overflow: visible; height: auto; width: auto;">
+                            <div class="tp-caption tp-resizeme" data-x="left" data-hoffset="0" data-y="top"
+                                 data-voffset="394" data-transform_idle="o:1;"
+                                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                                 data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                                 data-splitin="none" data-splitout="none" data-responsive_offset="on" data-start="2300"
+                                 style="visibility: hidden; transition: none 0s ease 0s; line-height: 24px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 14px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
+                                <div class="slide-content-box"
+                                     style="transition: none 0s ease 0s; line-height: 24px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 14px;">
+                                    <div class="button"
+                                         style="transition: none 0s ease 0s; line-height: 24px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 14px;">
+                                        <a class="thm-btn yellow-bg" href=""
+                                           style="transition: none 0s ease 0s; line-height: 24px; border-width: 2px; margin: 0px 15px 0px 0px; padding: 13px 30px; letter-spacing: 0px; font-weight: 400; font-size: 14px;">Read
+                                            More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tp-parallax-wrap"
+                     style="position: absolute; visibility: hidden; left: 512px; top: 394px; z-index: 1;">
+                    <div class="tp-loop-wrap" style="position:absolute;">
+                        <div class="tp-mask-wrap"
+                             style="position: absolute; overflow: visible; height: auto; width: auto;">
+                            <div class="tp-caption tp-resizeme" data-x="left" data-hoffset="173" data-y="top"
+                                 data-voffset="394" data-transform_idle="o:1;"
+                                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                                 data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                                 data-splitin="none" data-splitout="none" data-responsive_offset="on" data-start="2600"
+                                 style="visibility: hidden; transition: none 0s ease 0s; line-height: 24px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 14px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
+                                <div class="slide-content-box"
+                                     style="transition: none 0s ease 0s; line-height: 24px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 14px;">
+                                    <div class="button"
+                                         style="transition: none 0s ease 0s; line-height: 24px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 14px;">
+                                        <a class="thm-btn our-solution" href=""
+                                           style="transition: none 0s ease 0s; line-height: 24px; border-width: 2px; margin: 0px 15px 0px 0px; padding: 13px 30px; letter-spacing: 0px; font-weight: 400; font-size: 14px;">Our
+                                            Solutions</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li data-transition="slidingoverlayleft" class="tp-revslider-slidesli active-revslide"
+                style="width: 100%; height: 100%; overflow: hidden; z-index: 20; visibility: inherit; opacity: 1; background-color: rgba(255, 255, 255, 0);">
+                <div class="slotholder"
+                     style="width: 100%; height: 100%; visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0); z-index: 1;">
+                    <!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="img/slides/3.jpg" alt="" width="1920" height="580" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" class="defaultimg">-->
+                    <div class="tp-bgimg defaultimg"
+                         style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url(http://st.ourhtmldemo.com/new/indusrty-press//img/slides/3.jpg); background-size: cover; background-position: center top; width: 100%; height: 100%; opacity: 1; z-index: 20; visibility: inherit; position: inherit; transform: matrix(1, 0, 0, 1, 0, 0);"
+                         src="http://st.ourhtmldemo.com/new/indusrty-press/img/slides/3.jpg"></div>
+                </div>
+
+                <div class="tp-parallax-wrap"
+                     style="position: absolute; visibility: visible; left: 831px; top: 148px; z-index: 1;">
+                    <div class="tp-loop-wrap" style="position:absolute;">
+                        <div class="tp-mask-wrap"
+                             style="position: absolute; overflow: hidden; transform: translate3d(5.19253px, 0px, 0px); height: auto; width: auto;">
+                            <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="0" data-y="center"
+                                 data-voffset="-129" data-transform_idle="o:1;"
+                                 data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;"
+                                 data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                                 data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-splitin="none"
+                                 data-splitout="none" data-start="500"
+                                 style="visibility: inherit; transition: none 0s ease 0s; line-height: 24px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 14px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0.972656; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.08692, 0, 0, 1); transform-origin: 50% 50% 0px;">
+                                <div class="slide-content-box"
+                                     style="transition: none 0s ease 0s; line-height: 24px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 14px;">
+                                    <h3 style="transition: none 0s ease 0s; line-height: 22px; border-width: 0px; margin: -6px 0px 0px; padding: 5px 20px; letter-spacing: 0px; font-weight: 600; font-size: 18px;">
+                                        Industry Press</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tp-parallax-wrap"
+                     style="position: absolute; visibility: visible; left: 594px; top: 179px; z-index: 1;">
+                    <div class="tp-loop-wrap" style="position:absolute;">
+                        <div class="tp-mask-wrap"
+                             style="position: absolute; overflow: hidden; transform: translate3d(-199.586px, 0px, 0px); height: auto; width: auto;">
+                            <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="0" data-y="center"
+                                 data-voffset="-80" data-transform_idle="o:1;"
+                                 data-transform_in="x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;"
+                                 data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                                 data-mask_in="x:[-100%];y:0;s:inherit;e:inherit;" data-splitin="none"
+                                 data-splitout="none" data-responsive_offset="on" data-start="1500"
+                                 style="visibility: inherit; transition: none 0s ease 0s; line-height: 24px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 14px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0.701525; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 349.276, 0, 0, 1); transform-origin: 50% 50% 0px;">
+                                <div class="slide-content-box"
+                                     style="transition: none 0s ease 0s; line-height: 24px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 14px;">
+                                    <h1 style="transition: none 0s ease 0s; line-height: 62px; border-width: 0px; margin: 14px 0px 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 50px;">
+                                        Providing World Class Quality</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tp-parallax-wrap"
+                     style="position: absolute; visibility: hidden; left: 678px; top: 265px; z-index: 1;">
+                    <div class="tp-loop-wrap" style="position:absolute;">
+                        <div class="tp-mask-wrap"
+                             style="position: absolute; overflow: visible; height: auto; width: auto;">
+                            <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="0" data-y="center"
+                                 data-voffset="5" data-transform_idle="o:1;"
+                                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                                 data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                                 data-splitin="none" data-splitout="none" data-responsive_offset="on" data-start="2300"
+                                 style="visibility: inherit; transition: none 0s ease 0s; line-height: 24px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 14px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 62, 0, 1); transform-origin: 50% 50% 0px;">
+                                <div class="slide-content-box last-slide"
+                                     style="transition: none 0s ease 0s; line-height: 24px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 14px;">
+                                    <p class="text-center"
+                                       style="transition: none 0s ease 0s; line-height: 30px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 300; font-size: 18px;">
+                                        Industry Press has consistently embraced innovation to</p>
+                                    <p class="text-center"
+                                       style="transition: none 0s ease 0s; line-height: 30px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 300; font-size: 18px;">
+                                        provide a superior level of excellence.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tp-parallax-wrap"
+                     style="position: absolute; visibility: hidden; left: 742px; top: 353px; z-index: 1;">
+                    <div class="tp-loop-wrap" style="position:absolute;">
+                        <div class="tp-mask-wrap"
+                             style="position: absolute; overflow: visible; height: auto; width: auto;">
+                            <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="0" data-y="center"
+                                 data-voffset="90" data-transform_idle="o:1;"
+                                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                                 data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                                 data-splitin="none" data-splitout="none" data-responsive_offset="on" data-start="3000"
+                                 style="visibility: inherit; transition: none 0s ease 0s; line-height: 24px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 14px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 56, 0, 1); transform-origin: 50% 50% 0px;">
+                                <div class="slide-content-box last-slide"
+                                     style="transition: none 0s ease 0s; line-height: 24px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 14px;">
+                                    <div class="button"
+                                         style="transition: none 0s ease 0s; line-height: 24px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 14px;">
+                                        <a class="thm-btn yellow-bg" href=""
+                                           style="transition: none 0s ease 0s; line-height: 24px; border-width: 2px; margin: 0px 8px; padding: 13px 30px; letter-spacing: 0px; font-weight: 400; font-size: 14px;">Read
+                                            More</a>
+                                        <a class="thm-btn our-solution" href=""
+                                           style="transition: none 0s ease 0s; line-height: 24px; border-width: 2px; margin: 0px 8px; padding: 13px 30px; letter-spacing: 0px; font-weight: 400; font-size: 14px;">Our
+                                            Solutions</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="tp-loader spinner0" style="display: none;">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+        <div class="tp-bannertimer"
+             style="visibility: visible; width: 24.86%; transform: translate3d(0px, 0px, 0px);"></div>
+        <div class="tp-leftarrow tparrows"
+             style="top: 50%; transform: matrix(1, 0, 0, 1, 20, -20); left: 0px; visibility: inherit; opacity: 0.000171051;"></div>
+        <div class="tp-rightarrow tparrows"
+             style="top: 50%; transform: matrix(1, 0, 0, 1, -60, -20); left: 100%; visibility: inherit; opacity: 0.000171051;"></div>
+    </div>
+</section>
+<!--End rev slider wrapper-->
+
+<!--Start services area-->
+<section class="services-area">
+    <div class="container">
+        <div class="sec-title">
+            <p>What We Do For You</p>
+            <h1>Our Services</h1>
+        </div>
+        <div class="row">
+            <!--Start single service item-->
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="single-service-item">
+                    <div class="img-holder">
+                        <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/services/1.jpg" alt="Awesome Image">
+                        <div class="overlay">
+                            <div class="box">
+                                <div class="content">
+                                    <a class="thm-btn yellow-bg" href="chemical-research.html">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-holder">
+                        <div class="icon">
+                            <span class="flaticon-science"></span>
+                        </div>
+                        <div class="text">
+                            <h3>Chemical Research</h3>
+                            <p>Chemical Research expertise in for you manipulating chemicals energy.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End single service item-->
+            <!--Start single service item-->
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="single-service-item">
+                    <div class="img-holder">
+                        <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/services/2.jpg" alt="Awesome Image">
+                        <div class="overlay">
+                            <div class="box">
+                                <div class="content">
+                                    <a class="thm-btn yellow-bg" href="agri-processing.html">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-holder">
+                        <div class="icon">
+                            <span class="flaticon-nature"></span>
+                        </div>
+                        <div class="text">
+                            <h3>Agriculture Processing</h3>
+                            <p>Agricultural engineering at profession who developdesign procedure.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End single service item-->
+            <!--Start single service item-->
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="single-service-item">
+                    <div class="img-holder">
+                        <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/services/3.jpg" alt="Awesome Image">
+                        <div class="overlay">
+                            <div class="box">
+                                <div class="content">
+                                    <a class="thm-btn yellow-bg" href="petroleum-gas.html">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-holder">
+                        <div class="icon">
+                            <span class="flaticon-interface"></span>
+                        </div>
+                        <div class="text">
+                            <h3>Petroleum and Gas</h3>
+                            <p>Petroleum Engineers are concerned with the petrol exploration, discovery.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End single service item-->
+        </div>
+        <div class="row">
+            <!--Start single service item-->
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="single-service-item">
+                    <div class="img-holder">
+                        <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/services/4.jpg" alt="Awesome Image">
+                        <div class="overlay">
+                            <div class="box">
+                                <div class="content">
+                                    <a class="thm-btn yellow-bg" href="material-engineering.html">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-holder">
+                        <div class="icon">
+                            <span class="flaticon-folder"></span>
+                        </div>
+                        <div class="text">
+                            <h3>Material Engineering</h3>
+                            <p>Materials Engineering should scientific &amp; and engineering microstructure.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End single service item-->
+            <!--Start single service item-->
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="single-service-item">
+                    <div class="img-holder">
+                        <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/services/5.jpg" alt="Awesome Image">
+                        <div class="overlay">
+                            <div class="box">
+                                <div class="content">
+                                    <a class="thm-btn yellow-bg" href="power-energy.html">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-holder">
+                        <div class="icon">
+                            <span class="flaticon-nature-1"></span>
+                        </div>
+                        <div class="text">
+                            <h3>Power and Energy</h3>
+                            <p>Ensuring high reliability and optimal sed performance of rotating power.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End single service item-->
+            <!--Start single service item-->
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="single-service-item">
+                    <div class="img-holder">
+                        <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/services/6.jpg" alt="Awesome Image">
+                        <div class="overlay">
+                            <div class="box">
+                                <div class="content">
+                                    <a class="thm-btn yellow-bg" href="mechanical-engin.html">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-holder">
+                        <div class="icon">
+                            <span class="flaticon-tool"></span>
+                        </div>
+                        <div class="text">
+                            <h3>Mechanical Enginnering</h3>
+                            <p>Creating a dynamic company for that is continuous exploration &amp; develop.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End single service item-->
+        </div>
+    </div>
+</section>
+<!--End services area-->
+
+<!--Start about us area-->
+<section class="about-us-area">
+    <div class="outer-box clearfix">
+        <div class="image-column" style="background-image:url(http://st.ourhtmldemo.com/new/indusrty-press/img/about/bg-image.jpg);">
+            <ul class="icon-box" role="tablist">
+                <li class="single-item active" data-tab-name="about">
+                    <a href="#about" aria-controls="about" role="tab" data-toggle="tab" class="clearfix">
+                        <div class="icon">
+                            <span class="flaticon-sign"></span>
+                        </div>
+                        <div class="content">
+                            <h2>About Us</h2>
+                            <p>Company Overview</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="single-item" data-tab-name="history">
+                    <a href="#history" aria-controls="history" role="tab" data-toggle="tab" class="clearfix">
+                        <div class="icon">
+                            <span class="flaticon-sign"></span>
+                        </div>
+                        <div class="content">
+                            <h2>Our History</h2>
+                            <p>Defening Milestones</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="single-item" data-tab-name="process">
+                    <a href="#process" aria-controls="process" role="tab" data-toggle="tab" class="clearfix">
+                        <div class="icon">
+                            <span class="flaticon-sign"></span>
+                        </div>
+                        <div class="content">
+                            <h2>Processing</h2>
+                            <p>Processing &amp; Develop</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="single-item" data-tab-name="histwo">
+                    <a href="#histwo" aria-controls="histwo" role="tab" data-toggle="tab" class="clearfix">
+                        <div class="icon">
+                            <span class="flaticon-sign"></span>
+                        </div>
+                        <div class="content">
+                            <h2>Technology</h2>
+                            <p>Rich 25+ Years History</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content-column tab-content">
+            <!--Start single tab content-->
+            <div class="inner-box tab-pane fade in active" id="about">
+                <div class="sec-title">
+                    <p>Welcome to Industry Press</p>
+                    <h1>About Us</h1>
+                </div>
+                <div class="text-box">
+                    <p>Over 24 years experience and knowledge international standards, technologicaly changes and
+                        industrial systems, we are dedicated to provides seds the best solutions to our valued customers
+                        there us are many variations of of Lorem Ipsum available, but the passages majority have
+                        suffered.</p>
+                </div>
+                <div class="fact-counter">
+                    <ul>
+                        <li class="single-fact-counter">
+                            <div class="icon-holder"><span class="flaticon-avatar"></span></div>
+                            <span class="timer" data-from="1" data-to="2456" data-speed="5000"
+                                  data-refresh-interval="50">2456</span>
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                            <h3>Engineers &amp; Workers</h3>
+                        </li>
+                        <li class="single-fact-counter">
+                            <div class="icon-holder"><span class="flaticon-buildings"></span></div>
+                            <span class="timer" data-from="1" data-to="640" data-speed="5000"
+                                  data-refresh-interval="50">640</span>
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                            <h3>Factory in Worldwide</h3>
+                        </li>
+                        <li class="single-fact-counter">
+                            <div class="icon-holder"><span class="flaticon-technology"></span></div>
+                            <span class="timer" data-from="1" data-to="3250" data-speed="5000"
+                                  data-refresh-interval="50">3250</span>
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                            <h3>Projects Completed</h3>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--End single tab content-->
+            <!--Start single tab content-->
+            <div class="inner-box tab-pane fade active" id="history">
+                <div class="sec-title">
+                    <p>Welcome to Industry Press</p>
+                    <h1>Our History</h1>
+                </div>
+                <div class="timeline_wrapper">
+                    <div class="bx-wrapper" style="max-width: 100%;">
+                        <div class="bx-viewport"
+                             style="width: 100%; overflow: hidden; position: relative; height: 240px;">
+                            <ul class="bxslider"
+                                style="width: auto; position: relative; transition-duration: 0s; transform: translate3d(0px, -245px, 0px);">
+                                <li style="float: none; list-style: none; position: relative; width: 603px; margin-bottom: 5px;"
+                                    class="bx-clone">
+                                    <div class="single-item">
+                                        <div class="year">
+                                            <h5>1992</h5>
+                                        </div>
+                                        <div class="img-text-holder">
+                                            <div class="img-holder">
+                                                <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/about/tab/1.jpg"
+                                                     alt="Awesome Image">
+                                            </div>
+                                            <div class="text-holder">
+                                                <h3>Started at Newyork City</h3>
+                                                <p>Explain to you how all this mistaken idea of our was born and I will
+                                                    give you a complete.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-item">
+                                        <div class="year">
+                                            <h5>1995</h5>
+                                        </div>
+                                        <div class="img-text-holder">
+                                            <div class="img-holder">
+                                                <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/about/tab/2.jpg"
+                                                     alt="Awesome Image">
+                                            </div>
+                                            <div class="text-holder">
+                                                <h3>First recognition</h3>
+                                                <p>Who loves or pursues or desires to obtain pain of itselfit sed is
+                                                    pain circumstances.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li style="float: none; list-style: none; position: relative; width: 603px; margin-bottom: 5px;">
+                                    <div class="single-item">
+                                        <div class="year">
+                                            <h5>1992</h5>
+                                        </div>
+                                        <div class="img-text-holder">
+                                            <div class="img-holder">
+                                                <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/about/tab/1.jpg"
+                                                     alt="Awesome Image">
+                                            </div>
+                                            <div class="text-holder">
+                                                <h3>Started at Newyork City</h3>
+                                                <p>Explain to you how all this mistaken idea of our was born and I will
+                                                    give you a complete.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-item">
+                                        <div class="year">
+                                            <h5>1995</h5>
+                                        </div>
+                                        <div class="img-text-holder">
+                                            <div class="img-holder">
+                                                <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/about/tab/2.jpg"
+                                                     alt="Awesome Image">
+                                            </div>
+                                            <div class="text-holder">
+                                                <h3>First recognition</h3>
+                                                <p>Who loves or pursues or desires to obtain pain of itselfit sed is
+                                                    pain circumstances.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li style="float: none; list-style: none; position: relative; width: 603px; margin-bottom: 5px;">
+                                    <div class="single-item">
+                                        <div class="year">
+                                            <h5>1992</h5>
+                                        </div>
+                                        <div class="img-text-holder">
+                                            <div class="img-holder">
+                                                <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/about/tab/1.jpg"
+                                                     alt="Awesome Image">
+                                            </div>
+                                            <div class="text-holder">
+                                                <h3>Started at Newyork City</h3>
+                                                <p>Explain to you how all this mistaken idea of our was born and I will
+                                                    give you a complete.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-item">
+                                        <div class="year">
+                                            <h5>1995</h5>
+                                        </div>
+                                        <div class="img-text-holder">
+                                            <div class="img-holder">
+                                                <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/about/tab/2.jpg"
+                                                     alt="Awesome Image">
+                                            </div>
+                                            <div class="text-holder">
+                                                <h3>First recognition</h3>
+                                                <p>Who loves or pursues or desires to obtain pain of itselfit sed is
+                                                    pain circumstances.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li style="float: none; list-style: none; position: relative; width: 603px; margin-bottom: 5px;"
+                                    class="bx-clone">
+                                    <div class="single-item">
+                                        <div class="year">
+                                            <h5>1992</h5>
+                                        </div>
+                                        <div class="img-text-holder">
+                                            <div class="img-holder">
+                                                <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/about/tab/1.jpg"
+                                                     alt="Awesome Image">
+                                            </div>
+                                            <div class="text-holder">
+                                                <h3>Started at Newyork City</h3>
+                                                <p>Explain to you how all this mistaken idea of our was born and I will
+                                                    give you a complete.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-item">
+                                        <div class="year">
+                                            <h5>1995</h5>
+                                        </div>
+                                        <div class="img-text-holder">
+                                            <div class="img-holder">
+                                                <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/about/tab/2.jpg"
+                                                     alt="Awesome Image">
+                                            </div>
+                                            <div class="text-holder">
+                                                <h3>First recognition</h3>
+                                                <p>Who loves or pursues or desires to obtain pain of itselfit sed is
+                                                    pain circumstances.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bx-controls bx-has-pager bx-has-controls-direction">
+                            <div class="bx-pager bx-default-pager">
+                                <div class="bx-pager-item"><a href="" data-slide-index="0" class="bx-pager-link active">1</a>
+                                </div>
+                                <div class="bx-pager-item"><a href="" data-slide-index="1" class="bx-pager-link">2</a>
+                                </div>
+                            </div>
+                            <div class="bx-controls-direction"><a class="bx-prev" href="">Prev</a><a class="bx-next"
+                                                                                                     href="">Next</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End single tab content-->
+            <!--Start single tab content-->
+            <div class="inner-box tab-pane fade active" id="process">
+                <div class="sec-title">
+                    <p>Processing System</p>
+                    <h1>Processing</h1>
+                </div>
+                <div class="text-box">
+                    <p>Knowledge international standards of, technologicaly changes industrial systems we are dedicated
+                        to provides seds the best and economical solutions to valued customers there us are many
+                        variations of majority have suffered.</p>
+                </div>
+                <ul class="processing-system">
+                    <li>
+                        <div class="single-item">
+                            <div class="iocn-holder">
+                                <p>1</p>
+                                <span class="flaticon-tool"></span>
+                            </div>
+                            <h3>General</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="single-item">
+                            <div class="iocn-holder">
+                                <p>2</p>
+                                <span class="flaticon-engineer"></span>
+                            </div>
+                            <h3>Electrolysis</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="single-item">
+                            <div class="iocn-holder">
+                                <p>3</p>
+                                <span class="flaticon-avatar"></span>
+                            </div>
+                            <h3>Physical</h3>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--End single tab content-->
+            <!--Start single tab content-->
+            <div class="inner-box tab-pane fade active" id="histwo">
+                <div class="sec-title">
+                    <p>Innovation &amp; Adoption</p>
+                    <h1>Technology</h1>
+                </div>
+                <div class="accordion-box">
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn"><h4>Working in Remote Environments</h4></div>
+                        <div class="accord-content">
+                            <p>How all this mistaken idea of denouncing pleasure and praising pain was born and I will
+                                give you a complete account of the system, and expound the actual teachings of the great
+                                explorer of the truth.</p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn active"><h4>Minimizing the Harm of Hydrocarbons</h4></div>
+                        <div class="accord-content collapsed">
+                            <p>How all this mistaken idea of denouncing pleasure and praising pain was born and I will
+                                give you a complete account of the system, and expound the actual teachings of the great
+                                explorer of the truth.</p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn"><h4>Mineral extraction innovation</h4></div>
+                        <div class="accord-content">
+                            <p>How all this mistaken idea of denouncing pleasure and praising pain was born and I will
+                                give you a complete account of the system, and expound the actual teachings of the great
+                                explorer of the truth.</p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+                </div>
+            </div>
+            <!--End single tab content-->
+        </div>
+    </div>
+</section>
+<!--End about us area-->
+
+<!--Start our team area-->
+<section class="our-team-area">
+    <div class="container">
+        <div class="sec-title">
+            <p>Our Team</p>
+            <h1>Meet Our Experts</h1>
+        </div>
+        <div class="row">
+            <!--Start single team member-->
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="single-team-member">
+                    <div class="img-holder">
+                        <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/team/1.jpg" alt="Awesome Image">
+                        <div class="overlay-box">
+                            <div class="box">
+                                <div class="content">
+                                    <ul class="member-social-links">
+                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-holder">
+                        <h5>CEO &amp; Founder</h5>
+                        <h3>simon Charley</h3>
+                        <p>How this mistaken idea denouncing great explorer</p>
+                        <ul>
+                            <li><span>Tel:</span>876-00-486-12</li>
+                            <li><span>Mail:</span>Simon@Industrypress.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--End single team member-->
+            <!--Start single team member-->
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="single-team-member">
+                    <div class="img-holder">
+                        <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/team/2.jpg" alt="Awesome Image">
+                        <div class="overlay-box">
+                            <div class="box">
+                                <div class="content">
+                                    <ul class="member-social-links">
+                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-holder">
+                        <h5>Cheif Engineer</h5>
+                        <h3>Charles Nicholes</h3>
+                        <p>Great explorer of the truth,master-builder human</p>
+                        <ul>
+                            <li><span>Tel:</span>885-72-698-25</li>
+                            <li><span>Mail:</span>Charles@Industrypress.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--End single team member-->
+            <!--Start single team member-->
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="single-team-member">
+                    <div class="img-holder">
+                        <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/team/3.jpg" alt="Awesome Image">
+                        <div class="overlay-box">
+                            <div class="box">
+                                <div class="content">
+                                    <ul class="member-social-links">
+                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-holder">
+                        <h5>HR Manager</h5>
+                        <h3>Stephen Adams</h3>
+                        <p>Desires to obtain pain of itself, because occurs</p>
+                        <ul>
+                            <li><span>Tel:</span>856-22-687-45</li>
+                            <li><span>Mail:</span>Adams@Industrypress.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--End single team member-->
+            <!--Start single team member-->
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="single-team-member">
+                    <div class="img-holder">
+                        <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/team/4.jpg" alt="Awesome Image">
+                        <div class="overlay-box">
+                            <div class="box">
+                                <div class="content">
+                                    <ul class="member-social-links">
+                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-holder">
+                        <h5>Managing Director</h5>
+                        <h3>Ben Johnson</h3>
+                        <p>Occasionally circumstances occur in which toil him</p>
+                        <ul>
+                            <li><span>Tel:</span>876-99-142-96</li>
+                            <li><span>Mail:</span>Johnson@Industrypress.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--End single team member-->
+        </div>
+    </div>
+</section>
+<!--End our team area-->
+
+<!--Start latest project area-->
+<section class="latest-project-area" style="background-image:url(img/project/bg.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="sec-title pull-left">
+                    <p>Our Works</p>
+                    <h1>Latest Projects</h1>
+                </div>
+                <div class="button pull-right">
+                    <a class="thm-btn yellow-bg" href="projects.html">More Projects</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!--Start single latest project-->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="single-latest-project">
+                    <div class="img-holder">
+                        <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/project/1.jpg" alt="Awesome Image">
+                        <div class="overlay-box">
+                            <div class="box">
+                                <div class="content">
+                                    <a href="project-single.html"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="title-holder text-center">
+                        <h4>Petroleum Gas</h4>
+                        <p>Chemical</p>
+                    </div>
+                </div>
+            </div>
+            <!--End single latest project-->
+            <!--Start single latest project-->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="single-latest-project">
+                    <div class="img-holder">
+                        <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/project/2.jpg" alt="Awesome Image">
+                        <div class="overlay-box">
+                            <div class="box">
+                                <div class="content">
+                                    <a href="project-single.html"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="title-holder text-center">
+                        <h4>Multi Spring Push</h4>
+                        <p>Mechanical</p>
+                    </div>
+                </div>
+            </div>
+            <!--End single latest project-->
+            <!--Start single latest project-->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="single-latest-project">
+                    <div class="img-holder">
+                        <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/project/3.jpg" alt="Awesome Image">
+                        <div class="overlay-box">
+                            <div class="box">
+                                <div class="content">
+                                    <a href="project-single.html"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="title-holder text-center">
+                        <h4>Storage System</h4>
+                        <p>Power Energy</p>
+                    </div>
+                </div>
+            </div>
+            <!--End single latest project-->
+            <!--Start single latest project-->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="single-latest-project">
+                    <div class="img-holder">
+                        <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/project/4.jpg" alt="Awesome Image">
+                        <div class="overlay-box">
+                            <div class="box">
+                                <div class="content">
+                                    <a href="project-single.html"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="title-holder text-center">
+                        <h4>Manufacturing</h4>
+                        <p>Agricultural</p>
+                    </div>
+                </div>
+            </div>
+            <!--End single latest project-->
+        </div>
+    </div>
+</section>
+<!--End latest project area-->
+
+<!--Start testimonial area-->
+<section class="testimonial-area">
+    <div class="container">
+        <div class="sec-title center text-center">
+            <p>Testimonials</p>
+            <h1>What Customers Said</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="testimonials-item owl-carousel owl-theme owl-loaded">
+                    <!--Start single testimonial item-->
+
+                    <!--End single testimonial item-->
+                    <!--Start single testimonial item-->
+
+                    <!--End single testimonial item-->
+                    <!--Start single testimonial item-->
+
+                    <!--End single testimonial item-->
+                    <!--Start single testimonial item-->
+
+                    <!--End single testimonial item-->
+                    <!--Start single testimonial item-->
+
+                    <!--End single testimonial item-->
+                    <!--Start single testimonial item-->
+
+                    <!--End single testimonial item-->
+                    <!--Start single testimonial item-->
+
+                    <!--End single testimonial item-->
+                    <!--Start single testimonial item-->
+
+                    <!--End single testimonial item-->
+                    <!--Start single testimonial item-->
+
+                    <!--End single testimonial item-->
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage"
+                             style="transform: translate3d(-4400px, 0px, 0px); transition: all 1s ease 0s; width: 6000px;">
+                            <div class="owl-item cloned" style="width: 370px; margin-right: 30px;">
+                                <div class="single-testimonial-item">
+                                    <div class="text-box">
+                                        <p>Explain to you how all this mistaken ideas of denouncing and praising pain
+                                            was born will give you a complete.</p>
+                                    </div>
+                                    <div class="img-box">
+                                        <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/customers/1.png"
+                                             alt="Client Photo">
+                                    </div>
+                                    <div class="title-box text-center">
+                                        <h4>William Susante</h4>
+                                        <p>ECo System</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 370px; margin-right: 30px;">
+                                <div class="single-testimonial-item">
+                                    <div class="text-box">
+                                        <p>Undertakes laborious physical exercise too to obtain some advantages from it
+                                            but to enjoy a pleasure workers.</p>
+                                    </div>
+                                    <div class="img-box">
+                                        <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/customers/2.png"
+                                             alt="Client Photo">
+                                    </div>
+                                    <div class="title-box text-center">
+                                        <h4>John Meckency</h4>
+                                        <p>Villo Steels</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 370px; margin-right: 30px;">
+                                <div class="single-testimonial-item">
+                                    <div class="text-box">
+                                        <p>How all this mistaken of denouncing pleasure and praising pain was born and
+                                            will give you a complete expound.</p>
+                                    </div>
+                                    <div class="img-box">
+                                        <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/customers/3.png"
+                                             alt="Client Photo">
+                                    </div>
+                                    <div class="title-box text-center">
+                                        <h4>Thomas Fernando</h4>
+                                        <p>Future Theme</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item" style="width: 370px; margin-right: 30px;">
+                                <div class="single-testimonial-item">
+                                    <div class="text-box">
+                                        <p>Explain to you how all this mistaken ideas of denouncing and praising pain
+                                            was born will give you a complete.</p>
+                                    </div>
+                                    <div class="img-box">
+                                        <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/customers/1.png"
+                                             alt="Client Photo">
+                                    </div>
+                                    <div class="title-box text-center">
+                                        <h4>William Susante</h4>
+                                        <p>ECo System</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item" style="width: 370px; margin-right: 30px;">
+                                <div class="single-testimonial-item">
+                                    <div class="text-box">
+                                        <p>Undertakes laborious physical exercise too to obtain some advantages from it
+                                            but to enjoy a pleasure workers.</p>
+                                    </div>
+                                    <div class="img-box">
+                                        <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/customers/2.png"
+                                             alt="Client Photo">
+                                    </div>
+                                    <div class="title-box text-center">
+                                        <h4>John Meckency</h4>
+                                        <p>Villo Steels</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item" style="width: 370px; margin-right: 30px;">
+                                <div class="single-testimonial-item">
+                                    <div class="text-box">
+                                        <p>How all this mistaken of denouncing pleasure and praising pain was born and
+                                            will give you a complete expound.</p>
+                                    </div>
+                                    <div class="img-box">
+                                        <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/customers/3.png"
+                                             alt="Client Photo">
+                                    </div>
+                                    <div class="title-box text-center">
+                                        <h4>Thomas Fernando</h4>
+                                        <p>Future Theme</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item" style="width: 370px; margin-right: 30px;">
+                                <div class="single-testimonial-item">
+                                    <div class="text-box">
+                                        <p>Explain to you how all this mistaken ideas of denouncing and praising pain
+                                            was born will give you a complete.</p>
+                                    </div>
+                                    <div class="img-box">
+                                        <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/customers/1.png"
+                                             alt="Client Photo">
+                                    </div>
+                                    <div class="title-box text-center">
+                                        <h4>William Susante</h4>
+                                        <p>ECo System</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item" style="width: 370px; margin-right: 30px;">
+                                <div class="single-testimonial-item">
+                                    <div class="text-box">
+                                        <p>Undertakes laborious physical exercise too to obtain some advantages from it
+                                            but to enjoy a pleasure workers.</p>
+                                    </div>
+                                    <div class="img-box">
+                                        <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/customers/2.png"
+                                             alt="Client Photo">
+                                    </div>
+                                    <div class="title-box text-center">
+                                        <h4>John Meckency</h4>
+                                        <p>Villo Steels</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item" style="width: 370px; margin-right: 30px;">
+                                <div class="single-testimonial-item">
+                                    <div class="text-box">
+                                        <p>How all this mistaken of denouncing pleasure and praising pain was born and
+                                            will give you a complete expound.</p>
+                                    </div>
+                                    <div class="img-box">
+                                        <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/customers/3.png"
+                                             alt="Client Photo">
+                                    </div>
+                                    <div class="title-box text-center">
+                                        <h4>Thomas Fernando</h4>
+                                        <p>Future Theme</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item" style="width: 370px; margin-right: 30px;">
+                                <div class="single-testimonial-item">
+                                    <div class="text-box">
+                                        <p>Explain to you how all this mistaken ideas of denouncing and praising pain
+                                            was born will give you a complete.</p>
+                                    </div>
+                                    <div class="img-box">
+                                        <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/customers/1.png"
+                                             alt="Client Photo">
+                                    </div>
+                                    <div class="title-box text-center">
+                                        <h4>William Susante</h4>
+                                        <p>ECo System</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item" style="width: 370px; margin-right: 30px;">
+                                <div class="single-testimonial-item">
+                                    <div class="text-box">
+                                        <p>Undertakes laborious physical exercise too to obtain some advantages from it
+                                            but to enjoy a pleasure workers.</p>
+                                    </div>
+                                    <div class="img-box">
+                                        <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/customers/2.png"
+                                             alt="Client Photo">
+                                    </div>
+                                    <div class="title-box text-center">
+                                        <h4>John Meckency</h4>
+                                        <p>Villo Steels</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 370px; margin-right: 30px;">
+                                <div class="single-testimonial-item">
+                                    <div class="text-box">
+                                        <p>How all this mistaken of denouncing pleasure and praising pain was born and
+                                            will give you a complete expound.</p>
+                                    </div>
+                                    <div class="img-box">
+                                        <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/customers/3.png"
+                                             alt="Client Photo">
+                                    </div>
+                                    <div class="title-box text-center">
+                                        <h4>Thomas Fernando</h4>
+                                        <p>Future Theme</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned active" style="width: 370px; margin-right: 30px;">
+                                <div class="single-testimonial-item">
+                                    <div class="text-box">
+                                        <p>Explain to you how all this mistaken ideas of denouncing and praising pain
+                                            was born will give you a complete.</p>
+                                    </div>
+                                    <div class="img-box">
+                                        <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/customers/1.png"
+                                             alt="Client Photo">
+                                    </div>
+                                    <div class="title-box text-center">
+                                        <h4>William Susante</h4>
+                                        <p>ECo System</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned active" style="width: 370px; margin-right: 30px;">
+                                <div class="single-testimonial-item">
+                                    <div class="text-box">
+                                        <p>Undertakes laborious physical exercise too to obtain some advantages from it
+                                            but to enjoy a pleasure workers.</p>
+                                    </div>
+                                    <div class="img-box">
+                                        <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/customers/2.png"
+                                             alt="Client Photo">
+                                    </div>
+                                    <div class="title-box text-center">
+                                        <h4>John Meckency</h4>
+                                        <p>Villo Steels</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 370px; margin-right: 30px;">
+                                <div class="single-testimonial-item">
+                                    <div class="text-box">
+                                        <p>How all this mistaken of denouncing pleasure and praising pain was born and
+                                            will give you a complete expound.</p>
+                                    </div>
+                                    <div class="img-box">
+                                        <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/customers/3.png"
+                                             alt="Client Photo">
+                                    </div>
+                                    <div class="title-box text-center">
+                                        <h4>Thomas Fernando</h4>
+                                        <p>Future Theme</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-controls">
+                        <div class="owl-nav">
+                            <div class="owl-prev" style=""><span class="fa fa-angle-left"></span></div>
+                            <div class="owl-next" style=""><span class="fa fa-angle-right"></span></div>
+                        </div>
+                        <div class="owl-dots" style="">
+                            <div class="owl-dot"><span></span></div>
+                            <div class="owl-dot"><span></span></div>
+                            <div class="owl-dot active"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End testimonial area-->
+
+<!--Start Brand area-->
+<section class="brand-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="brand owl-carousel owl-theme owl-loaded">
+                    <!--Start single item-->
+
+                    <!--End single item-->
+                    <!--Start single item-->
+
+                    <!--End single item-->
+                    <!--Start single item-->
+
+                    <!--End single item-->
+                    <!--Start single item-->
+
+                    <!--End single item-->
+                    <!--Start single item-->
+
+                    <!--End single item-->
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage"
+                             style="transform: translate3d(-1666px, 0px, 0px); transition: all 1s ease 0s; width: 3570px;">
+                            <div class="owl-item cloned" style="width: 218px; margin-right: 20px;">
+                                <div class="single-item">
+                                    <a href="#"><img src="http://st.ourhtmldemo.com/new/indusrty-press/img/brand/1.png"
+                                                     alt="Awesome Brand Image"></a>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 218px; margin-right: 20px;">
+                                <div class="single-item">
+                                    <a href="#"><img src="http://st.ourhtmldemo.com/new/indusrty-press/img/brand/2.png"
+                                                     alt="Awesome Brand Image"></a>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 218px; margin-right: 20px;">
+                                <div class="single-item">
+                                    <a href="#"><img src="http://st.ourhtmldemo.com/new/indusrty-press/img/brand/3.png"
+                                                     alt="Awesome Brand Image"></a>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 218px; margin-right: 20px;">
+                                <div class="single-item">
+                                    <a href="#"><img src="http://st.ourhtmldemo.com/new/indusrty-press/img/brand/4.png"
+                                                     alt="Awesome Brand Image"></a>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 218px; margin-right: 20px;">
+                                <div class="single-item">
+                                    <a href="#"><img src="http://st.ourhtmldemo.com/new/indusrty-press/img/brand/5.png"
+                                                     alt="Awesome Brand Image"></a>
+                                </div>
+                            </div>
+                            <div class="owl-item" style="width: 218px; margin-right: 20px;">
+                                <div class="single-item">
+                                    <a href="#"><img src="http://st.ourhtmldemo.com/new/indusrty-press/img/brand/1.png"
+                                                     alt="Awesome Brand Image"></a>
+                                </div>
+                            </div>
+                            <div class="owl-item" style="width: 218px; margin-right: 20px;">
+                                <div class="single-item">
+                                    <a href="#"><img src="http://st.ourhtmldemo.com/new/indusrty-press/img/brand/2.png"
+                                                     alt="Awesome Brand Image"></a>
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 218px; margin-right: 20px;">
+                                <div class="single-item">
+                                    <a href="#"><img src="http://st.ourhtmldemo.com/new/indusrty-press/img/brand/3.png"
+                                                     alt="Awesome Brand Image"></a>
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 218px; margin-right: 20px;">
+                                <div class="single-item">
+                                    <a href="#"><img src="http://st.ourhtmldemo.com/new/indusrty-press/img/brand/4.png"
+                                                     alt="Awesome Brand Image"></a>
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 218px; margin-right: 20px;">
+                                <div class="single-item">
+                                    <a href="#"><img src="http://st.ourhtmldemo.com/new/indusrty-press/img/brand/5.png"
+                                                     alt="Awesome Brand Image"></a>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned active" style="width: 218px; margin-right: 20px;">
+                                <div class="single-item">
+                                    <a href="#"><img src="http://st.ourhtmldemo.com/new/indusrty-press/img/brand/1.png"
+                                                     alt="Awesome Brand Image"></a>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned active" style="width: 218px; margin-right: 20px;">
+                                <div class="single-item">
+                                    <a href="#"><img src="http://st.ourhtmldemo.com/new/indusrty-press/img/brand/2.png"
+                                                     alt="Awesome Brand Image"></a>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 218px; margin-right: 20px;">
+                                <div class="single-item">
+                                    <a href="#"><img src="http://st.ourhtmldemo.com/new/indusrty-press/img/brand/3.png"
+                                                     alt="Awesome Brand Image"></a>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 218px; margin-right: 20px;">
+                                <div class="single-item">
+                                    <a href="#"><img src="http://st.ourhtmldemo.com/new/indusrty-press/img/brand/4.png"
+                                                     alt="Awesome Brand Image"></a>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 218px; margin-right: 20px;">
+                                <div class="single-item">
+                                    <a href="#"><img src="http://st.ourhtmldemo.com/new/indusrty-press/img/brand/5.png"
+                                                     alt="Awesome Brand Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-controls">
+                        <div class="owl-nav">
+                            <div class="owl-prev" style=""><i class="fa fa-angle-left"></i></div>
+                            <div class="owl-next" style=""><i class="fa fa-angle-right"></i></div>
+                        </div>
+                        <div class="owl-dots" style="display: none;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Brand area-->
+
+<!--Start google map area-->
+<section class="google-map-area">
+    <div class="google-map" id="home-google-map" data-map-lat="40.712784" data-map-lng="-74.005941"
+         data-icon-path="img/resources/map-marker.png" data-map-title="Brooklyn, New York, United Kingdom"
+         data-map-zoom="12" data-markers="{
+                &quot;marker-1&quot;: [40.712784, -74.005941, &quot;<h4>Personal Trainning Camp</h4><p>228 Park Ave S, New York, UK</p>&quot;]
+            }" style="position: relative; overflow: hidden;">
+        <div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);">
+            <div class="gm-style"
+                 style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;">
+                <div>
+                    <button draggable="false" aria-label="Keyboard shortcuts" title="Keyboard shortcuts" type="button"
+                            style="background: none transparent; display: block; border: none; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: absolute; cursor: pointer; user-select: none; z-index: 1000002; left: -100000px; top: -100000px;"></button>
+                </div>
+                <div tabindex="0" aria-label="Map" aria-roledescription="map" role="group"
+                     style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; touch-action: pan-x pan-y;">
+                    <div style="z-index: 1; position: absolute; left: 50%; top: 50%; width: 100%; transform: translate(0px, 0px);">
+                        <div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;">
+                            <div style="position: absolute; left: 0px; top: 0px; z-index: 0;">
+                                <div style="position: absolute; z-index: 988; transform: matrix(1, 0, 0, 1, -250, -5);">
+                                    <div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: 0px; top: -256px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: 256px; top: -256px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: 512px; top: -256px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: 512px; top: 0px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: 512px; top: 256px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: 256px; top: 256px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: 0px; top: 256px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: -256px; top: 256px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: -256px; top: -256px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: -256px; top: -512px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: 0px; top: -512px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: 256px; top: -512px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: 512px; top: -512px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: 768px; top: -512px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: 768px; top: -256px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: 768px; top: 0px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: 768px; top: 256px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: -512px; top: 256px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: -512px; top: 0px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: -512px; top: -256px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: -512px; top: -512px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: 1024px; top: -512px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: 1024px; top: -256px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: 1024px; top: 0px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: 1024px; top: 256px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: -768px; top: 256px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: -768px; top: 0px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: -768px; top: -256px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                    <div style="position: absolute; left: -768px; top: -512px; width: 256px; height: 256px;">
+                                        <div style="width: 256px; height: 256px;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div>
+                        <div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div>
+                        <div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;">
+                            <div style="width: 80px; height: 97px; overflow: hidden; position: absolute; left: -40px; top: -97px; z-index: 0;">
+                                <img alt="" src="img/resources/map-marker.png" draggable="false"
+                                     style="position: absolute; left: 0px; top: 0px; user-select: none; width: 80px; height: 97px; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                            </div>
+                            <div style="position: absolute; left: 0px; top: 0px; z-index: -1;">
+                                <div style="position: absolute; z-index: 988; transform: matrix(1, 0, 0, 1, -250, -5);">
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: 0px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: 0px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: -256px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: -256px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 512px; top: -256px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 512px; top: 0px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 512px; top: 256px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: 256px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: 256px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: 256px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: 0px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: -256px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: -512px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: -512px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: -512px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 512px; top: -512px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 768px; top: -512px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 768px; top: -256px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 768px; top: 0px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 768px; top: 256px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -512px; top: 256px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -512px; top: 0px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -512px; top: -256px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -512px; top: -512px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 1024px; top: -512px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 1024px; top: -256px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 1024px; top: 0px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 1024px; top: 256px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -768px; top: 256px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -768px; top: 0px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -768px; top: -256px;"></div>
+                                    <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -768px; top: -512px;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="position: absolute; left: 0px; top: 0px; z-index: 0;">
+                            <div style="position: absolute; z-index: 988; transform: matrix(1, 0, 0, 1, -250, -5);">
+                                <div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1206!3i1540!4i256!2m3!1e0!2sm!3i563288320!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=129768"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1205!3i1540!4i256!2m3!1e0!2sm!3i563288320!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=38440"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: 0px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1205!3i1539!4i256!2m3!1e0!2sm!3i563288320!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=29395"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: 256px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1206!3i1539!4i256!2m3!1e0!2sm!3i563288320!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=120723"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: 512px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1207!3i1539!4i256!2m3!1e0!2sm!3i563288320!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=80980"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: 512px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1207!3i1540!4i256!2m3!1e0!2sm!3i563288320!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=90025"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: 512px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1207!3i1541!4i256!2m3!1e0!2sm!3i563288296!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=59841"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: 256px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1206!3i1541!4i256!2m3!1e0!2sm!3i563288308!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=20384"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: 0px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1205!3i1541!4i256!2m3!1e0!2sm!3i563288308!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=60127"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: -256px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1204!3i1541!4i256!2m3!1e0!2sm!3i563288308!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=99870"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1204!3i1540!4i256!2m3!1e0!2sm!3i563288320!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=78183"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: -256px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1204!3i1539!4i256!2m3!1e0!2sm!3i563288320!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=69138"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: -256px; top: -512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1204!3i1538!4i256!2m3!1e0!2sm!3i563288320!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=111426"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: 0px; top: -512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1205!3i1538!4i256!2m3!1e0!2sm!3i563288320!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=71683"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: 256px; top: -512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1206!3i1538!4i256!2m3!1e0!2sm!3i563288320!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=31940"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: 512px; top: -512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1207!3i1538!4i256!2m3!1e0!2sm!3i563288320!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=123268"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: 768px; top: -512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1208!3i1538!4i256!2m3!1e0!2sm!3i563288320!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=83525"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: 768px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1208!3i1539!4i256!2m3!1e0!2sm!3i563288320!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=41237"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: 768px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1208!3i1540!4i256!2m3!1e0!2sm!3i563288296!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=62386"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: 768px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1208!3i1541!4i256!2m3!1e0!2sm!3i563288296!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=20098"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: -512px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1203!3i1541!4i256!2m3!1e0!2sm!3i563288308!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=8542"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: -512px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1203!3i1540!4i256!2m3!1e0!2sm!3i563288308!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=50830"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: -512px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1203!3i1539!4i256!2m3!1e0!2sm!3i563288320!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=108881"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: -512px; top: -512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1203!3i1538!4i256!2m3!1e0!2sm!3i563288320!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=20098"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: 1024px; top: -512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1209!3i1538!4i256!2m3!1e0!2sm!3i563288320!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=43782"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: 1024px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1209!3i1539!4i256!2m3!1e0!2sm!3i563288308!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=65469"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: 1024px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1209!3i1540!4i256!2m3!1e0!2sm!3i563288308!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=74514"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: 1024px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1209!3i1541!4i256!2m3!1e0!2sm!3i563288272!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=55950"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: -768px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1202!3i1541!4i256!2m3!1e0!2sm!3i563288308!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=48285"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: -768px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1202!3i1540!4i256!2m3!1e0!2sm!3i563288308!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=90573"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: -768px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1202!3i1539!4i256!2m3!1e0!2sm!3i563288308!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=81528"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                                <div style="position: absolute; left: -768px; top: -512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;">
+                                    <img draggable="false" alt="" role="presentation"
+                                         src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i1202!3i1538!4i256!2m3!1e0!2sm!3i563288308!2m3!1e2!6m1!3e5!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0&amp;key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A&amp;token=123816"
+                                         style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gm-style-pbc"
+                         style="z-index: 2; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; opacity: 0;">
+                        <p class="gm-style-pbt"></p></div>
+                    <div style="z-index: 3; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; touch-action: pan-x pan-y;">
+                        <div style="z-index: 4; position: absolute; left: 50%; top: 50%; width: 100%; transform: translate(0px, 0px);">
+                            <div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div>
+                            <div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div>
+                            <div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;">
+                                <div title="" role="button" tabindex="0"
+                                     style="width: 80px; height: 97px; overflow: hidden; position: absolute; cursor: pointer; touch-action: none; left: -40px; top: -97px; z-index: 0;">
+                                    <img alt="" src="https://maps.gstatic.com/mapfiles/transparent.png"
+                                         draggable="false"
+                                         style="width: 80px; height: 97px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                                </div>
+                            </div>
+                            <div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <iframe aria-hidden="true" frameborder="0" tabindex="-1"
+                        style="z-index: -1; position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; border: none;"></iframe>
+                <div style="pointer-events: none; width: 100%; height: 100%; box-sizing: border-box; position: absolute; z-index: 1000002; opacity: 0; border: 2px solid rgb(26, 115, 232);"></div>
+                <div>
+                    <div class="gmnoprint gm-bundled-control" draggable="false" controlwidth="40" controlheight="81"
+                         style="margin: 10px; user-select: none; position: absolute; left: 0px; top: 0px;">
+                        <div class="gmnoprint" controlwidth="40" controlheight="81"
+                             style="position: absolute; left: 0px; top: 0px;">
+                            <div draggable="false"
+                                 style="user-select: none; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; cursor: pointer; background-color: rgb(255, 255, 255); width: 40px; height: 81px;">
+                                <button draggable="false" aria-label="Zoom in" title="Zoom in" type="button"
+                                        class="gm-control-active"
+                                        style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: relative; cursor: pointer; user-select: none; overflow: hidden; width: 40px; height: 40px; top: 0px; left: 0px;">
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M18%207h-7V0H7v7H0v4h7v7h4v-7h7z%22/%3E%3C/svg%3E"
+                                         alt="" style="height: 18px; width: 18px;"><img
+                                        src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M18%207h-7V0H7v7H0v4h7v7h4v-7h7z%22/%3E%3C/svg%3E"
+                                        alt="" style="height: 18px; width: 18px;"><img
+                                        src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23111%22%20d%3D%22M18%207h-7V0H7v7H0v4h7v7h4v-7h7z%22/%3E%3C/svg%3E"
+                                        alt="" style="height: 18px; width: 18px;"></button>
+                                <div style="position: relative; overflow: hidden; width: 30px; height: 1px; margin: 0px 5px; background-color: rgb(230, 230, 230); top: 0px;"></div>
+                                <button draggable="false" aria-label="Zoom out" title="Zoom out" type="button"
+                                        class="gm-control-active"
+                                        style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: relative; cursor: pointer; user-select: none; overflow: hidden; width: 40px; height: 40px; top: 0px; left: 0px;">
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%207h18v4H0V7z%22/%3E%3C/svg%3E"
+                                         alt="" style="height: 18px; width: 18px;"><img
+                                        src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%207h18v4H0V7z%22/%3E%3C/svg%3E"
+                                        alt="" style="height: 18px; width: 18px;"><img
+                                        src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%207h18v4H0V7z%22/%3E%3C/svg%3E"
+                                        alt="" style="height: 18px; width: 18px;"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div>
+                    <button draggable="false" aria-label="Toggle fullscreen view" title="Toggle fullscreen view"
+                            type="button" class="gm-control-active gm-fullscreen-control"
+                            style="background: none rgb(255, 255, 255); border: 0px; margin: 10px; padding: 0px; text-transform: none; appearance: none; position: absolute; cursor: pointer; user-select: none; border-radius: 2px; height: 40px; width: 40px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; overflow: hidden; top: 0px; right: 0px;">
+                        <img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%200v6h2V2h4V0H0zm16%200h-4v2h4v4h2V0h-2zm0%2016h-4v2h6v-6h-2v4zM2%2012H0v6h6v-2H2v-4z%22/%3E%3C/svg%3E"
+                             alt="" style="height: 18px; width: 18px;"><img
+                            src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%200v6h2V2h4V0H0zm16%200h-4v2h4v4h2V0h-2zm0%2016h-4v2h6v-6h-2v4zM2%2012H0v6h6v-2H2v-4z%22/%3E%3C/svg%3E"
+                            alt="" style="height: 18px; width: 18px;"><img
+                            src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%200v6h2V2h4V0H0zm16%200h-4v2h4v4h2V0h-2zm0%2016h-4v2h6v-6h-2v4zM2%2012H0v6h6v-2H2v-4z%22/%3E%3C/svg%3E"
+                            alt="" style="height: 18px; width: 18px;"></button>
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div>
+                    <div class="gmnoprint gm-bundled-control gm-bundled-control-on-bottom" draggable="false"
+                         controlwidth="0" controlheight="0"
+                         style="margin: 10px; user-select: none; position: absolute; bottom: 14px; right: 0px; display: none;">
+                        <div class="gmnoprint" controlwidth="40" controlheight="40"
+                             style="display: none; position: absolute;">
+                            <div style="background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; width: 40px; height: 40px;">
+                                <button draggable="false" aria-label="Rotate map clockwise" title="Rotate map clockwise"
+                                        type="button" class="gm-control-active"
+                                        style="background: none; display: none; border: 0px; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: relative; cursor: pointer; user-select: none; left: 0px; top: 0px; overflow: hidden; width: 40px; height: 40px;">
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20d%3D%22M0%200h24v24H0V0z%22/%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M12.06%209.06l4-4-4-4-1.41%201.41%201.59%201.59h-.18c-2.3%200-4.6.88-6.35%202.64-3.52%203.51-3.52%209.21%200%2012.72%201.5%201.5%203.4%202.36%205.36%202.58v-2.02c-1.44-.21-2.84-.86-3.95-1.97-2.73-2.73-2.73-7.17%200-9.9%201.37-1.37%203.16-2.05%204.95-2.05h.17l-1.59%201.59%201.41%201.41zm8.94%203c-.19-1.74-.88-3.32-1.91-4.61l-1.43%201.43c.69.92%201.15%202%201.32%203.18H21zm-7.94%207.92V22c1.74-.19%203.32-.88%204.61-1.91l-1.43-1.43c-.91.68-2%201.15-3.18%201.32zm4.6-2.74l1.43%201.43c1.04-1.29%201.72-2.88%201.91-4.61h-2.02c-.17%201.18-.64%202.27-1.32%203.18z%22/%3E%3C/svg%3E"
+                                         style="width: 20px; height: 20px;"><img
+                                        src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20d%3D%22M0%200h24v24H0V0z%22/%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M12.06%209.06l4-4-4-4-1.41%201.41%201.59%201.59h-.18c-2.3%200-4.6.88-6.35%202.64-3.52%203.51-3.52%209.21%200%2012.72%201.5%201.5%203.4%202.36%205.36%202.58v-2.02c-1.44-.21-2.84-.86-3.95-1.97-2.73-2.73-2.73-7.17%200-9.9%201.37-1.37%203.16-2.05%204.95-2.05h.17l-1.59%201.59%201.41%201.41zm8.94%203c-.19-1.74-.88-3.32-1.91-4.61l-1.43%201.43c.69.92%201.15%202%201.32%203.18H21zm-7.94%207.92V22c1.74-.19%203.32-.88%204.61-1.91l-1.43-1.43c-.91.68-2%201.15-3.18%201.32zm4.6-2.74l1.43%201.43c1.04-1.29%201.72-2.88%201.91-4.61h-2.02c-.17%201.18-.64%202.27-1.32%203.18z%22/%3E%3C/svg%3E"
+                                        style="width: 20px; height: 20px;"><img
+                                        src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20d%3D%22M0%200h24v24H0V0z%22/%3E%3Cpath%20fill%3D%22%23111%22%20d%3D%22M12.06%209.06l4-4-4-4-1.41%201.41%201.59%201.59h-.18c-2.3%200-4.6.88-6.35%202.64-3.52%203.51-3.52%209.21%200%2012.72%201.5%201.5%203.4%202.36%205.36%202.58v-2.02c-1.44-.21-2.84-.86-3.95-1.97-2.73-2.73-2.73-7.17%200-9.9%201.37-1.37%203.16-2.05%204.95-2.05h.17l-1.59%201.59%201.41%201.41zm8.94%203c-.19-1.74-.88-3.32-1.91-4.61l-1.43%201.43c.69.92%201.15%202%201.32%203.18H21zm-7.94%207.92V22c1.74-.19%203.32-.88%204.61-1.91l-1.43-1.43c-.91.68-2%201.15-3.18%201.32zm4.6-2.74l1.43%201.43c1.04-1.29%201.72-2.88%201.91-4.61h-2.02c-.17%201.18-.64%202.27-1.32%203.18z%22/%3E%3C/svg%3E"
+                                        style="width: 20px; height: 20px;"></button>
+                                <div style="position: relative; overflow: hidden; width: 30px; height: 1px; margin: 0px 5px; background-color: rgb(230, 230, 230); display: none;"></div>
+                                <button draggable="false" aria-label="Rotate map counterclockwise"
+                                        title="Rotate map counterclockwise" type="button" class="gm-control-active"
+                                        style="background: none; display: none; border: 0px; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: relative; cursor: pointer; user-select: none; left: 0px; top: 0px; overflow: hidden; width: 40px; height: 40px; transform: scaleX(-1);">
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20d%3D%22M0%200h24v24H0V0z%22/%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M12.06%209.06l4-4-4-4-1.41%201.41%201.59%201.59h-.18c-2.3%200-4.6.88-6.35%202.64-3.52%203.51-3.52%209.21%200%2012.72%201.5%201.5%203.4%202.36%205.36%202.58v-2.02c-1.44-.21-2.84-.86-3.95-1.97-2.73-2.73-2.73-7.17%200-9.9%201.37-1.37%203.16-2.05%204.95-2.05h.17l-1.59%201.59%201.41%201.41zm8.94%203c-.19-1.74-.88-3.32-1.91-4.61l-1.43%201.43c.69.92%201.15%202%201.32%203.18H21zm-7.94%207.92V22c1.74-.19%203.32-.88%204.61-1.91l-1.43-1.43c-.91.68-2%201.15-3.18%201.32zm4.6-2.74l1.43%201.43c1.04-1.29%201.72-2.88%201.91-4.61h-2.02c-.17%201.18-.64%202.27-1.32%203.18z%22/%3E%3C/svg%3E"
+                                         style="width: 20px; height: 20px;"><img
+                                        src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20d%3D%22M0%200h24v24H0V0z%22/%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M12.06%209.06l4-4-4-4-1.41%201.41%201.59%201.59h-.18c-2.3%200-4.6.88-6.35%202.64-3.52%203.51-3.52%209.21%200%2012.72%201.5%201.5%203.4%202.36%205.36%202.58v-2.02c-1.44-.21-2.84-.86-3.95-1.97-2.73-2.73-2.73-7.17%200-9.9%201.37-1.37%203.16-2.05%204.95-2.05h.17l-1.59%201.59%201.41%201.41zm8.94%203c-.19-1.74-.88-3.32-1.91-4.61l-1.43%201.43c.69.92%201.15%202%201.32%203.18H21zm-7.94%207.92V22c1.74-.19%203.32-.88%204.61-1.91l-1.43-1.43c-.91.68-2%201.15-3.18%201.32zm4.6-2.74l1.43%201.43c1.04-1.29%201.72-2.88%201.91-4.61h-2.02c-.17%201.18-.64%202.27-1.32%203.18z%22/%3E%3C/svg%3E"
+                                        style="width: 20px; height: 20px;"><img
+                                        src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20d%3D%22M0%200h24v24H0V0z%22/%3E%3Cpath%20fill%3D%22%23111%22%20d%3D%22M12.06%209.06l4-4-4-4-1.41%201.41%201.59%201.59h-.18c-2.3%200-4.6.88-6.35%202.64-3.52%203.51-3.52%209.21%200%2012.72%201.5%201.5%203.4%202.36%205.36%202.58v-2.02c-1.44-.21-2.84-.86-3.95-1.97-2.73-2.73-2.73-7.17%200-9.9%201.37-1.37%203.16-2.05%204.95-2.05h.17l-1.59%201.59%201.41%201.41zm8.94%203c-.19-1.74-.88-3.32-1.91-4.61l-1.43%201.43c.69.92%201.15%202%201.32%203.18H21zm-7.94%207.92V22c1.74-.19%203.32-.88%204.61-1.91l-1.43-1.43c-.91.68-2%201.15-3.18%201.32zm4.6-2.74l1.43%201.43c1.04-1.29%201.72-2.88%201.91-4.61h-2.02c-.17%201.18-.64%202.27-1.32%203.18z%22/%3E%3C/svg%3E"
+                                        style="width: 20px; height: 20px;"></button>
+                                <div style="position: relative; overflow: hidden; width: 30px; height: 1px; margin: 0px 5px; background-color: rgb(230, 230, 230); display: none;"></div>
+                                <button draggable="false" aria-label="Tilt map" title="Tilt map" type="button"
+                                        class="gm-tilt gm-control-active"
+                                        style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: relative; cursor: pointer; user-select: none; top: 0px; left: 0px; overflow: hidden; width: 40px; height: 40px;">
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2016%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2016h8V9H0v7zm10%200h8V9h-8v7zM0%207h8V0H0v7zm10-7v7h8V0h-8z%22/%3E%3C/svg%3E"
+                                         style="width: 18px;"><img
+                                        src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2016%22%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2016h8V9H0v7zm10%200h8V9h-8v7zM0%207h8V0H0v7zm10-7v7h8V0h-8z%22/%3E%3C/svg%3E"
+                                        style="width: 18px;"><img
+                                        src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2016%22%3E%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2016h8V9H0v7zm10%200h8V9h-8v7zM0%207h8V0H0v7zm10-7v7h8V0h-8z%22/%3E%3C/svg%3E"
+                                        style="width: 18px;"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;">
+                        <a target="_blank" rel="noopener"
+                           href="https://maps.google.com/maps?ll=40.712784,-74.005941&amp;z=12&amp;t=m&amp;hl=en&amp;gl=US&amp;mapclient=apiv3"
+                           title="Open this area in Google Maps (opens a new window)"
+                           style="position: static; overflow: visible; float: none; display: inline;">
+                            <div style="width: 66px; height: 26px; cursor: pointer;"><img alt=""
+                                                                                          src="https://maps.gstatic.com/mapfiles/api-3/images/google_white5.png"
+                                                                                          draggable="false"
+                                                                                          style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; user-select: none; border: 0px; padding: 0px; margin: 0px;">
+                            </div>
+                        </a></div>
+                </div>
+                <div></div>
+                <div>
+                    <div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 396px; bottom: 0px;">
+                        <div draggable="false" class="gm-style-cc"
+                             style="user-select: none; height: 14px; line-height: 14px;">
+                            <div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;">
+                                <div style="width: 1px;"></div>
+                                <div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div>
+                            </div>
+                            <div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(0, 0, 0); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;">
+                                <button draggable="false" aria-label="Keyboard shortcuts" title="Keyboard shortcuts"
+                                        type="button"
+                                        style="background: none; display: inline-block; border: 0px; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: relative; cursor: pointer; user-select: none; color: rgb(0, 0, 0); font-family: inherit; line-height: inherit;">
+                                    Keyboard shortcuts
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gmnoprint"
+                         style="z-index: 1000001; position: absolute; right: 275px; bottom: 0px; width: 121px;">
+                        <div draggable="false" class="gm-style-cc"
+                             style="user-select: none; height: 14px; line-height: 14px;">
+                            <div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;">
+                                <div style="width: 1px;"></div>
+                                <div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div>
+                            </div>
+                            <div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(0, 0, 0); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;">
+                                <button draggable="false" aria-label="Map Data" title="Map Data" type="button"
+                                        style="background: none; display: none; border: 0px; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: relative; cursor: pointer; user-select: none; color: rgb(0, 0, 0); font-family: inherit; line-height: inherit;">
+                                    Map Data
+                                </button>
+                                <span>Map data ©2021 Google</span></div>
+                        </div>
+                    </div>
+                    <div draggable="false" class="gm-style-cc"
+                         style="position: absolute; user-select: none; height: 14px; line-height: 14px; right: 166px; bottom: 0px;">
+                        <div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;">
+                            <div style="width: 1px;"></div>
+                            <div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div>
+                        </div>
+                        <div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(0, 0, 0); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;">
+                            <span>2 km&nbsp;</span>
+                            <div style="position: relative; display: inline-block; height: 8px; bottom: -1px; width: 73px;">
+                                <div style="width: 100%; height: 4px; position: absolute; left: 0px; top: 0px;"></div>
+                                <div style="width: 4px; height: 8px; left: 0px; top: 0px; background-color: rgb(255, 255, 255);"></div>
+                                <div style="width: 4px; height: 8px; position: absolute; background-color: rgb(255, 255, 255); right: 0px; bottom: 0px;"></div>
+                                <div style="position: absolute; background-color: rgb(102, 102, 102); height: 2px; left: 1px; bottom: 1px; right: 1px;"></div>
+                                <div style="position: absolute; width: 2px; height: 6px; left: 1px; top: 1px; background-color: rgb(102, 102, 102);"></div>
+                                <div style="width: 2px; height: 6px; position: absolute; background-color: rgb(102, 102, 102); bottom: 1px; right: 1px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gmnoprint gm-style-cc" draggable="false"
+                         style="z-index: 1000001; user-select: none; height: 14px; line-height: 14px; position: absolute; right: 95px; bottom: 0px;">
+                        <div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;">
+                            <div style="width: 1px;"></div>
+                            <div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div>
+                        </div>
+                        <div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(0, 0, 0); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;">
+                            <a href="https://www.google.com/intl/en_US/help/terms_maps.html" target="_blank"
+                               rel="noopener" style="text-decoration: none; cursor: pointer; color: rgb(0, 0, 0);">Terms
+                                of Use</a></div>
+                    </div>
+                    <div draggable="false" class="gm-style-cc"
+                         style="user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;">
+                        <div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;">
+                            <div style="width: 1px;"></div>
+                            <div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div>
+                        </div>
+                        <div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(0, 0, 0); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;">
+                            <a target="_blank" rel="noopener" title="Report errors in the road map or imagery to Google"
+                               dir="ltr"
+                               href="https://www.google.com/maps/@40.712784,-74.005941,12z/data=!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3"
+                               style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(0, 0, 0); text-decoration: none; position: relative;">Report
+                                a map error</a></div>
+                    </div>
+                    <div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;">
+                        <div style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(0, 0, 0); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">
+                            Map data ©2021 Google
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-8">
+                <div class="send-message">
+                    <div class="sec-title">
+                        <p>Get In Touch</p>
+                        <h1>Send Message Us</h1>
+                    </div>
+                    <form action="inc/sendemail.php" class="contact-form" novalidate="novalidate">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="input-field">
+                                            <input type="text" name="name" placeholder="Your Name*">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-field">
+                                            <input type="text" name="mail" placeholder="Email Address*">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="input-field">
+                                            <input type="text" name="phnumber" placeholder="Phone Num">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <select class="selectmenu" id="ui-id-1" style="display: none;">
+                                            <option selected="selected">Choose Solution</option>
+                                            <option>Solution One</option>
+                                            <option>Solution Two</option>
+                                            <option>Solution Three</option>
+                                        </select><span
+                                            class="ui-selectmenu-button ui-widget ui-state-default ui-corner-all"
+                                            tabindex="0" id="ui-id-1-button" role="combobox" aria-expanded="false"
+                                            aria-autocomplete="list" aria-owns="ui-id-1-menu" aria-haspopup="true"
+                                            style="width: 136px;"><span
+                                            class="ui-icon ui-icon-triangle-1-s"></span><span
+                                            class="ui-selectmenu-text">Choose Solution</span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <textarea name="message" placeholder="Write Your Needs..."></textarea>
+                            </div>
+                            <div class="col-md-12">
+                                <button class="thm-btn yellow-bg" type="submit">Submit Now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End google map area-->
+
+<!--Start footer area-->
+<footer class="footer-area">
+    <div class="container">
+        <div class="row">
+            <!--Start single footer widget-->
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="single-footer-widget pd-bottom">
+                    <div class="footer-logo">
+                        <a href="index.html">
+                            <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/footer/footer-logo.png"
+                                 alt="Awesome Footer Logo">
+                        </a>
+                    </div>
+                    <div class="industry-info">
+                        <p>Explain to you how all this mistaken at idea of denouncing “sed pleasure and praising pains
+                            was born and will gives you a completed” denouncing worker and praising pain was born and I
+                            will give youour company.</p>
+                    </div>
+                    <ul class="footer-social-links">
+                        <li><a href="#"><i aria-hidden="true" class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i aria-hidden="true" class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i aria-hidden="true" class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--End single footer widget-->
+            <!--Start single footer widget-->
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="single-footer-widget pd-bottom">
+                    <div class="title">
+                        <h3>Quick Links</h3>
+                    </div>
+                    <ul class="quick-links left">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="solutions.html">All Services</a></li>
+                        <li><a href="#">Job Careers</a></li>
+                        <li><a href="#">Team Behind</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Our Products</a></li>
+                    </ul>
+                    <ul class="quick-links">
+                        <li><a href="news.html">Latest News</a></li>
+                        <li><a href="projects.html">Our Projects</a></li>
+                        <li><a href="#">Pricing Plans</a></li>
+                        <li><a href="#">FAQ’s</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--End single footer widget-->
+            <!--Start single footer widget-->
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="single-footer-widget pd-bottom-inst">
+                    <div class="title">
+                        <h3>Instagram</h3>
+                    </div>
+                    <ul class="instagram">
+                        <li>
+                            <div class="img-holder">
+                                <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/footer/instagram-1.jpg"
+                                     alt="Awesome Image">
+                                <div class="overlay-box">
+                                    <div class="box">
+                                        <div class="content">
+                                            <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img-holder">
+                                <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/footer/instagram-2.jpg"
+                                     alt="Awesome Image">
+                                <div class="overlay-box">
+                                    <div class="box">
+                                        <div class="content">
+                                            <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img-holder">
+                                <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/footer/instagram-3.jpg"
+                                     alt="Awesome Image">
+                                <div class="overlay-box">
+                                    <div class="box">
+                                        <div class="content">
+                                            <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img-holder">
+                                <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/footer/instagram-4.jpg"
+                                     alt="Awesome Image">
+                                <div class="overlay-box">
+                                    <div class="box">
+                                        <div class="content">
+                                            <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img-holder">
+                                <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/footer/instagram-5.jpg"
+                                     alt="Awesome Image">
+                                <div class="overlay-box">
+                                    <div class="box">
+                                        <div class="content">
+                                            <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img-holder">
+                                <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/footer/instagram-6.jpg"
+                                     alt="Awesome Image">
+                                <div class="overlay-box">
+                                    <div class="box">
+                                        <div class="content">
+                                            <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="follow-us">
+                        <div class="icon">
+                            <img src="http://st.ourhtmldemo.com/new/indusrty-press/img/footer/icon.jpg"
+                                 alt="Awesome Image">
+                        </div>
+                        <div class="text-holder">
+                            <h5>Industry Press</h5>
+                            <a href="">Follow Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End single footer widget-->
+            <!--Start single footer widget-->
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="single-footer-widget">
+                    <div class="title">
+                        <h3>Get In Touch</h3>
+                    </div>
+                    <ul class="contact-address">
+                        <li>
+                            <div class="icon-holder">
+                                <span class="flaticon-earth-grid"></span>
+                            </div>
+                            <div class="content-holder">
+                                <p><span>Address:</span> 20c Factory Street, Newyork, NY 10205</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-holder">
+                                <span class="flaticon-email-envelope-back-symbol-on-phone-screen"></span>
+                            </div>
+                            <div class="content-holder">
+                                <p><span>Call Us:</span> +(321) 48 659 779 Mail@Industrypress.com</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-holder">
+                                <span class="flaticon-technology-1"></span>
+                            </div>
+                            <div class="content-holder">
+                                <p><span>Fax:</span> +(321) 58 759 897</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-holder">
+                                <span class="flaticon-clock"></span>
+                            </div>
+                            <div class="content-holder">
+                                <p><span>Mon - Sat Day:</span> 10.00 - 18.00 Sunday Closed</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--End single footer widget-->
+        </div>
+    </div>
+</footer>
+<!--End footer area-->
+
+<!--Start footer bottom area-->
+<section class="footer-bottom-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+                <div class="copyright-text">
+                    <p>Copyright © 2016 Industry Press Theme by <a
+                            href="https://themeforest.net/user/steelthemes/portfolio?ref=steelthemes">SteelThemes</a>
+                    </p></div>
+            </div>
+            <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
+                <ul class="footer-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="solutions.html">Solutions</a></li>
+                    <li><a href="#">Privacy Policies</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End footer bottom area-->
+
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html" style="display: none;"><span
+        class="fa fa-angle-up"></span></div>
+
+<!-- main jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- bootstrap -->
+<script src="http://st.ourhtmldemo.com/new/indusrty-press/js/bootstrap.min.js"></script>
+<!-- bx slider -->
+<script src="http://st.ourhtmldemo.com/new/indusrty-press/js/jquery.bxslider.min.js"></script>
+<!-- count to -->
+<script src="http://st.ourhtmldemo.com/new/indusrty-press/js/jquery.countTo.js"></script>
+<!-- owl carousel -->
+<script src="http://st.ourhtmldemo.com/new/indusrty-press/js/owl.carousel.min.js"></script>
+<!-- validate -->
+<script src="http://st.ourhtmldemo.com/new/indusrty-press/js/validate.js"></script>
+<!-- mixit up -->
+<script src="http://st.ourhtmldemo.com/new/indusrty-press/js/jquery.mixitup.min.js"></script>
+<!-- easing -->
+<script src="http://st.ourhtmldemo.com/new/indusrty-press/js/jquery.easing.min.js"></script>
+<!-- gmap helper -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A"></script>
+<!--gmap script-->
+<script src="http://st.ourhtmldemo.com/new/indusrty-press/js/gmaps.js"></script>
+<script src="http://st.ourhtmldemo.com/new/indusrty-press/js/map-helper.js"></script>
+<!-- video responsive script -->
+<script src="http://st.ourhtmldemo.com/new/indusrty-press/js/jquery.fitvids.js"></script>
+<!-- jQuery ui js -->
+<script src="http://st.ourhtmldemo.com/new/indusrty-press/assets/jquery-ui-1.11.4/jquery-ui.js"></script>
+<!-- fancy box -->
+<script src="http://st.ourhtmldemo.com/new/indusrty-press/assets/fancyapps-fancyBox/source/jquery.fancybox.pack.js"></script>
+<script src="http://st.ourhtmldemo.com/new/indusrty-press/js/jquery.appear.js"></script>
+
+<!-- revolution slider js -->
+<script src="http://st.ourhtmldemo.com/new/indusrty-press/assets/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="http://st.ourhtmldemo.com/new/indusrty-press/assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script src="http://st.ourhtmldemo.com/new/indusrty-press/assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="http://st.ourhtmldemo.com/new/indusrty-press/assets/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="http://st.ourhtmldemo.com/new/indusrty-press/assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="http://st.ourhtmldemo.com/new/indusrty-press/assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="http://st.ourhtmldemo.com/new/indusrty-press/assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script src="http://st.ourhtmldemo.com/new/indusrty-press/assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="http://st.ourhtmldemo.com/new/indusrty-press/assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="http://st.ourhtmldemo.com/new/indusrty-press/assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="http://st.ourhtmldemo.com/new/indusrty-press/assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
+
+
+<!-- thm custom script -->
+<script src="custom.js"></script>
+
+
+<div class="ui-selectmenu-menu ui-front">
+    <ul aria-hidden="true" aria-labelledby="ui-id-1-button" id="ui-id-1-menu"
+        class="ui-menu ui-widget ui-widget-content ui-corner-bottom" role="listbox" tabindex="0"></ul>
+</div>
+</body>
+</html>
