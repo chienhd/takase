@@ -1,0 +1,5 @@
+.edgtf-portfolio-list-holder-outer.edgtf-ptf-masonry article .edgtf-item-image-holder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
